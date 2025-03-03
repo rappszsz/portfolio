@@ -9,9 +9,9 @@ const Contacts = () => {
       </p>
 
       <div className="contact-info">
-        <p><strong>Email:</strong> your.email@example.com</p>
-        <p><strong>Phone:</strong> +123 456 7890</p>
-        <p><strong>Location:</strong> Your City, Country</p>
+        <p><strong>Email:</strong> ralphchristianandoni@gmail.com </p>
+        <p><strong>Phone:</strong> 09159526340</p>
+        <p><strong>Location:</strong> Roxas City, Capiz, Philippines</p>
       </div>
 
       <form className="contact-form">
