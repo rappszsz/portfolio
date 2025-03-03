@@ -1,0 +1,72 @@
+/* Projects Section */
+.projects-container {
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #001f4d, #004080); /* Dark blue gradient */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Title Styling */
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+/* Projects Grid */
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Individual Project Card */
+.project-item {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Project Name */
+.project-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project-description {
+    font-size: 1rem;
+    color: #d9e6ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+}
